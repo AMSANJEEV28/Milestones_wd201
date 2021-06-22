@@ -56,4 +56,20 @@ class Todo < ActiveRecord::Base
     todo
   end
 
-  
+  # To Display the full todo list.
+  def self.show_list
+    puts "My Todo-list\n\n"
+
+    puts "Overdue\n"
+    puts overdue.to_displayable_list
+    puts "\n\n"
+
+    puts "Due Today\n"
+    puts due_today.to_displayable_list
+    puts "\n\n"
+
+    puts "Due Later\n"
+    puts due_later.to_displayable_list
+    puts "\n\n"
+  end
+end
