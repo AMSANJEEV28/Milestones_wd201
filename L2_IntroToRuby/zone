@@ -1,0 +1,7 @@
+# RECORD TYPE, SOURCE, DESTINATION
+A, ruby-lang.org, 221.186.184.75
+A, google.com, 172.217.163.46
+
+CNAME, www.ruby-lang.org, ruby-lang.org
+CNAME, mail.google.com, google.com
+CNAME, gmail.com, mail.google.com
